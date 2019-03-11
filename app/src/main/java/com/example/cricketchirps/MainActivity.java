@@ -2,6 +2,7 @@ package com.example.cricketchirps;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -37,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
                 tvResults.setText(text);
 
                 tvResults.setVisibility(View.VISIBLE);
+
+                //Log.i("MYTAG", "Hello World");
+                //tvResults.animate().alpha(0.5f).setDuration(5000);
             }
         });
     }
